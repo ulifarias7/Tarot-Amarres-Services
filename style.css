@@ -60,11 +60,11 @@ header {
 
     h1 {
       color: #e7d691;
-      font-size: 125px;
+      font-size: 90px;
       font-family: Inknut Antiqua;
-      font-weight: 900;
-      line-height: 125px;
-      letter-spacing: 16.25px;
+      font-weight: 600;
+      line-height: 130px;
+      letter-spacing: 14.25px;
       margin: 0;
     }
 
@@ -203,11 +203,11 @@ header {
 .categories h2 {
   margin: 0;
   color: #e7d691;
-  font-size: 48px;
+  font-size: 36px;
   font-family: Inknut Antiqua;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 0.48px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .bloque-categoria {
@@ -268,6 +268,39 @@ header {
 }
 
 .category a:hover {
+  background: #d0c176;
+  /* Color más oscuro */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  /* Sombra */
+  transform: scale(1.05);
+  /* Escala */
+}
+
+/* mas servicios */
+.mas-servicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  margin-top: 20px;
+}
+
+.mas-servicio a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 700px;
+  border-radius: 50px;
+  background-color: #e7d691;
+  color: #111c20;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.mas-servicio a:hover {
   background: #d0c176;
   /* Color más oscuro */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
