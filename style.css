@@ -375,7 +375,6 @@ header {
   margin: 0 20px; /* 10px a la izquierda y a la derecha */
   color: #e7d691;
   font-size: 40px;
-
 }
 /*polotica de privacidad*/
 
@@ -558,7 +557,9 @@ footer p {
     font-size: 12px;
     font-weight: 500;
     line-height: 25.8px;
-    text-align: left;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
   }
 
   .text-content .button {
