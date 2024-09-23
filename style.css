@@ -363,12 +363,26 @@ header {
   right: 10px;
 }
 
+/* social icono */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+.social-icons a {
+  margin: 0 20px; /* 10px a la izquierda y a la derecha */
+  color: #e7d691;
+  font-size: 40px;
+
+}
 /*polotica de privacidad*/
 
 .politicas-section {
   text-align: center;
   background: #0e2024;
-  margin: 7.5rem;
+  margin: 5.5rem;
 }
 
 .politicas-section h2 {
