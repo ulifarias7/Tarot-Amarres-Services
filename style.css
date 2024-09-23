@@ -595,6 +595,30 @@ footer p {
     font-size: 12px;
   }
 
+  .mas-servicio a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #e7d691;
+    color: #111c20;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  .mas-servicio a:hover {
+    background: #d0c176;
+    /* Color más oscuro */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    /* Sombra */
+    transform: scale(1.05);
+    /* Escala */
+  }
+
   .politicas-section {
     margin: 0 1rem 0 1rem;
   }
